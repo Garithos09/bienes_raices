@@ -8,6 +8,7 @@
 
 .entrada-blog {
     margin-bottom: 2rem;
+
     @include tablet {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -15,6 +16,12 @@
     }
     &:last-of-type {
         margin-bottom: 0;
+    }
+}
+
+.informacion-meta {
+    span {
+        color: $amarillo;
     }
 }
 
@@ -39,7 +46,5 @@
             margin-top: 1rem;
         }
     }
-    span {
-        color: $amarillo;
-    }
+
 }
